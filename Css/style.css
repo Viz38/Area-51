@@ -3,7 +3,7 @@ html, body {
   padding: 0;
   color: greenyellow;
   background: black;
-  font-family: 'Cabin', sans-serif;  
+  font-family: 'Orbitron', sans-serif;
 }
 
 a {
@@ -26,7 +26,7 @@ img {
 
 header {
   height: auto;
-  background: #fff;
+  background: black;
   line-height: 1rem;
   -webkit-box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
           box-shadow: 0 2px 6px 0 rgba(0,0,0,0.12);
@@ -46,24 +46,24 @@ header .container {
 }
 
 #logo {
-  color: #111111;
+  color: greenyellow;
   text-decoration: none;
   text-transform: uppercase;
   margin-top: auto;
   margin-bottom: auto;
   padding: 1em;
   font-size: 1.5em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
-#section-one {
+#main {
   background:black;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#section-one .container {
+#main .container {
   min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;

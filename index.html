@@ -10,15 +10,19 @@
     <link rel="shortcut icon" href="Media/alien.png" type="image/png">
     <script data-require="jquery" data-semver="2.1.1" src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Orbitron&display=swap" rel="stylesheet">
   </head>
 
   <body>
+
       <header>
           <div class="container">
               <a href='/' id="logo">AREA-51</a>
           </div>
+          <hr style="border: 0.5px solid greenyellow;" />
       </header>
-      <section id="section-one">
+
+      <section id="main">
           <div class="container">
               <div id="hero-content">
                   <div class="gnulogo">
@@ -27,10 +31,18 @@
                   <h1>Area-51</h1>
                   <p>Generate names for your aliens, you bring from AREA-51</p>
                   <button id="showLine">Generate!</button>
-  <p id="trivia"></p>
+                  <p id="trivia"></p>
+                  <iframe src="https://giphy.com/embed/kexH1idZBuc8uSMvV1" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
               </div>
           </div>
+          <div>
+                <iframe src="Media/Xfiles.mp3" allow="autoplay" style="display:none" id="iframeAudio"></iframe> 
+                <audio autoplay loop  id="playAudio">
+                     <source src="Media/Xfiles.mp3">
+                </audio>
+          </div>
       </section>
+
   </body>
 
 </html>
