@@ -62,6 +62,7 @@ Moya
 Natasi
 Natira
 Noranti
+Novak
 Oola
 Padme
 Pallas
@@ -96,10 +97,13 @@ Tyrell
 Vito
 Vorian
 Winter
+Xabat
+Xander
 Zalga
 Zhora
 Zoe
 Zorg
+Zorion
 Enhancecow
 Notebookiconic
 Quiltbandlers
