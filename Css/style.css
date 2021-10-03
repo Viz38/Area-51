@@ -10,14 +10,42 @@ img {
   width: 100%;
   height: 100%;
 }
+img:hover{
+  transform:scale(1.5);
+}
 
 .container {
   width: 80%;
   margin: 0 auto;
 }
 
+.main_content{
+  margin: 3rem;
+}
+.main_content h1{
+  font-size: 4.5rem;
+
+}
+.main_content p{
+  font-size: 2rem;
+
+}
 .padding {
   padding-top: 5em;
+}
+
+.typing {
+  width: 100%;
+  animation: typing 3s,blink .5s infinite;
+  white-space: nowrap;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
 }
 
 header {
@@ -47,7 +75,8 @@ header .container {
   margin-top: auto;
   margin-bottom: auto;
   padding: 1em;
-  font-size: 1.5em;
+  font-size: 1.5rem;
+  font-weight: bold;
   font-family: 'Orbitron', sans-serif;
 }
 
@@ -83,6 +112,37 @@ header .container {
 
 #trivia {
   font: italic 14pt Arial;
+  font-size: 2.5rem;
+}
+
+#trivia:hover{
+  font: italic 14pt Arial;
+  font-size: 2.5rem;
+}
+
+#showLine{
+  font-family: 'Orbitron', sans-serif;
+  background-color: greenyellow;
+  font-weight: bold;
+  color: black;
+  outline: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+#showLine:hover{
+  font-family: 'Orbitron', sans-serif;
+  background-color: black;
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  font-weight: bold;
+  outline: none;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 5px;
+
 }
 
 .not_visible {
